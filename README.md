@@ -7,11 +7,21 @@ This repository contains my solutions to various LeetCode problems. I'm solving 
 - **Language(s) used**: Python / C++ / etc. (update this)
 - **Problems solved**: XX Easy | XX Medium | XX Hard (update as you go)
 
-## Progress Badges (Optional - Add if you want dynamic stats)
-
-You can add LeetCode stats badges using tools like [LeetCode Stats Card](https://github.com/JacobLinCool/LeetCode-Stats-Card) or [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats).
-
-Example (replace `mahdishamlou`):
-
 [![LeetCode Stats](https://leetcode-card.vercel.app/api/leetcode/?username=mahdishamlou&theme=dark)](https://leetcode.com/mahdishamlou/)
 
+
+Feel free to explore the folders for detailed solutions, explanations, and time/space complexity analysis.
+
+## Connect With Me 🌐
+
+[![Medium](https://img.shields.io/badge/Medium-%40yourusername-black?style=flat&logo=medium)](https://medium.com/@shamlouprogrammer)  
+[![Virgool](https://img.shields.io/badge/Virgool-ویرگول-blue?style=flat&logo=blogger)](https://virgool.io/@shamlouprogrammer)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mahdi-shamlou-3b52b8278)  
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/mahdi0shamlou)
+
+
+## Contributions Welcome 👋
+
+If you spot any improvements, better solutions, or want to add explanations — feel free to open a Pull Request!
+
+Happy Coding! 💻
