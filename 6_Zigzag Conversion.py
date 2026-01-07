@@ -7,21 +7,18 @@ class Solution:
 
         for i in s:
             result.append("")
-            try:
+            result[numRows_counter] = str(result[numRows_counter]) + str(i)
 
-                result[numRows_counter] = str(result[numRows_counter]) + str(i)
+            if numRows_counter + 1 == numRows:
+                numRows_counter_way = -1
+            if numRows_counter - 1 < 0:
+                numRows_counter_way = +1
 
-                if numRows_counter + 1 == numRows:
-                    numRows_counter_way = -1
-                if numRows_counter - 1 < 0:
-                    numRows_counter_way = +1
+            if numRows_counter_way == 1:
+                numRows_counter = numRows_counter + 1
+            else:
+                numRows_counter = numRows_counter - 1
 
-                if numRows_counter_way == 1:
-                    numRows_counter = numRows_counter + 1
-                else:
-                    numRows_counter = numRows_counter - 1
-            except:
-                pass
         final_res = ""
         for i in result:
             final_res = final_res + i
