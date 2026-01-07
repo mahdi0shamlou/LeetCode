@@ -2,13 +2,11 @@ class Solution:
     def convert(self, s: str, numRows: int) -> str:
 
         result = []
-        for i in range(len(s)):
-            result.append("")
-
         numRows_counter = 0
         numRows_counter_way = 1
 
         for i in s:
+            result.append("")
             try:
 
                 result[numRows_counter] = str(result[numRows_counter]) + str(i)
