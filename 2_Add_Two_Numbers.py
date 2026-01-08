@@ -21,6 +21,9 @@ class Solution(object):
         elif l2.next != None and l1.next == None:
             list_node = ListNode(val=posetive, next=self.sum(ListNode(val=0, next=None), l2.next, added))
         else:
-            list_node = ListNode(val=posetive, next=None)
+            if added:
+                list_node = ListNode(val=posetive, next=ListNode(val=added))
+            else:
+                list_node = ListNode(val=posetive, next=None)
         return list_node
 
