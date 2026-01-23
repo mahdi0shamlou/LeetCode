@@ -6,7 +6,6 @@ class Solution:
             three if any one of them is not equal we can return False else return True 
         """
         x_str = str(x)
-        x_is_palindrome = False   
         
         print(f"x : {x_str} and type : {type(x_str)}")
 
