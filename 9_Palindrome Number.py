@@ -19,26 +19,45 @@ class Solution:
             right = mid_of_str_num 
             print(f"left for start is : {left}")
             print(f"right for start is : {right}")
+
             while left >= 0 and right < len(x_str) and x_str[int(left)] == x_str[int(right)]:
                 left -= 1
                 right += 1
 
             left = left + 1 
             right = right - 1
-            
+
             print(f"left in end is : {left}")
             print(f"right in end is : {right}")
 
             return (left == 0) and (right == len(x_str)-1) 
 
         else:
-            pass
-        
-        mid_of_str_num = len()
 
-        return x_is_palindrome
+            print(f"x is odd and len is : {len(x_str)}")
+            mid_of_str_num = int(len(x_str) / 2)
+
+            left = mid_of_str_num
+            right = mid_of_str_num 
+
+            print(f"left for start is : {left}")
+            print(f"right for start is : {right}")
+
+            while left >= 0 and right < len(x_str) and x_str[int(left)] == x_str[int(right)]:
+                left -= 1
+                right += 1
+
+            left = left + 1 
+            right = right - 1
+
+            print(f"left in end is : {left}")
+            print(f"right in end is : {right}")   
+
+            return (left == 0) and (right == len(x_str)-1)      
+
+        return False
 
 
 x = Solution()
-res = x.isPalindrome(x=1221)
+res = x.isPalindrome(x=121)
 print(res)
