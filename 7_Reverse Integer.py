@@ -1,37 +1,29 @@
 class Solution:
-
     def reverse(self, x: int) -> int:
-        print("*"*30)
-        print(f"x for start : {x}")
 
-        reversed_x = 0
-        sign = +1
+        reversed_x = 0 # create reverse_x to return 
 
-        if "-" == x[0]:
-            x = x[1:]
+        # Try to Handle the sign separately
+        if x >= 0:
+            sign = 1
+        else:
             sign = -1
 
-        print(f"sign is : {sign}")
-        print(f"x befor revese x : {x}")
-
-        for i in range(len(x), 0, -1):
-            if reversed_x == 0:
-                reversed_x = int(x[i-1])
-            else:
-                reversed_x = (reversed_x*10) + int(x[i-1])
-
-            if (reversed_x * sign) > ((2**31)-1) or (reversed_x * sign) < ((2**31) * -1):
-                return 0
+        x = abs(x)
         
-        return reversed_x * sign
+        while x > 0:
+            digit = x % 10
+            x = x // 10
+            
+            # checks for overflow before adding the new digit
+            # 2**31 - 1 is equals = 2147483647
+            # -2**31    is equals = -2147483648
 
-
-x = Solution()
-r = x.reverse(x = "-123")
-print(r)
-r = x.reverse(x = "-123000")
-print(r)
-r = x.reverse(x = "-10023")
-print(r)
-r = x.reverse(x = "120")
-print(r)
+            if reversed_x > (2147483647 - digit) // 10: # but you can use dynamic number calculation like 2**31-1
+                return 0
+            if reversed_x < (-2147483648 + digit) // 10:
+                return 0
+                
+            reversed_x = reversed_x * 10 + digit
+        
+        return sign * reversed_x
