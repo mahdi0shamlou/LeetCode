@@ -5,7 +5,7 @@
 This repository contains my solutions to various LeetCode problems. I'm solving them to improve my problem-solving skills, prepare for technical interviews, and track my progress.
 
 - **Language(s) used**: Python / C++ / C / Go / etc. 
-- **Problems solved**: 1 Easy | 4 Medium | 1 Hard 
+- **Problems solved**: 2 Easy | 8 Medium | 2 Hard 
 [![LeetCode Stats](https://leetcode-card.vercel.app/api/leetcode/?username=mahdishamlou&theme=dark)](https://leetcode.com/mahdishamlou/)
 
 
@@ -13,11 +13,11 @@ Feel free to explore the folders for detailed solutions, explanations, and time/
 
 ## Connect With Me 🌐
 
-[![Medium](https://img.shields.io/badge/Medium-%40yourusername-black?style=flat&logo=medium)](https://medium.com/@shamlouprogrammer)  
-[![Virgool](https://img.shields.io/badge/Virgool-ویرگول-blue?style=flat&logo=blogger)](https://virgool.io/@shamlouprogrammer)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mahdi-shamlou-3b52b8278)  
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/mahdi0shamlou)
-
+[![Medium](https://img.shields.io/badge/Medium-%40shamlouprogrammer-black?style=flat&logo=medium)](https://medium.com/@shamlouprogrammer)  
+[![Dev.to](https://img.shields.io/badge/Dev.to-%40mahdi0shamlou-black?style=flat&logo=dev.to)](https://medium.com/@shamlouprogrammer)  
+[![GitHub](https://img.shields.io/badge/GitHub-@mahdi0shamlou-black?style=flat&logo=github)](https://github.com/mahdi0shamlou)  
+[![Virgool](https://img.shields.io/badge/Virgool-@shamlouprogrammer-blue?style=flat&logo=blogger)](https://virgool.io/@shamlouprogrammer)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mahdi-shamlou-3b52b8278)  
 
 ## Contributions Welcome 👋
 
