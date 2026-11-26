@@ -5,7 +5,7 @@
 This repository contains my solutions to various LeetCode problems. I'm solving them to improve my problem-solving skills, prepare for technical interviews, and track my progress.
 
 - **Language(s) used**: Python / C++ / C / Go / etc. 
-- **Problems solved**: 4 Easy | 8 Medium | 2 Hard 
+- **Problems solved**: 5 Easy | 13 Medium | 2 Hard 
 [![LeetCode Stats](https://leetcode-card.vercel.app/api/leetcode/?username=mahdishamlou&theme=dark)](https://leetcode.com/mahdishamlou/)
 
 
